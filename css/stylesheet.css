@@ -59,8 +59,16 @@ img {
 /*SECTION 3 */
 .s3 h1 {
     position: relative;
-    bottom: 25%;
+    bottom: 20%;
 }
+
+.projectWrapper {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 
 
 /* SECTION 4      */
@@ -92,26 +100,22 @@ img {
 
 
 .s1  {
-    background: rgb(185,43,39);
-background: linear-gradient(90deg, rgba(185,43,39,1) 0%, rgba(21,101,192,1) 100%, rgba(0,0,0,1) 100%);
+background: linear-gradient(90deg, rgba(184, 96, 93, 1) 0%, rgb(24, 116, 221) 100%, rgba(0,0,0,1) 100%);
 }
 
 .s2 {
-    background: rgb(76,82,141);
     background: linear-gradient(90deg, rgba(76,82,141,1) 0%, rgba(112,69,107,1) 100%, rgba(0,0,0,1) 100%);
 
 }
 
 
 .s3 {
-    background: rgb(112,69,107);
 background: linear-gradient(90deg, rgba(112,69,107,1) 0%, rgba(71,132,166,1) 100%, rgba(0,0,0,1) 100%);
 }
 
 
 .s4 {
-    background: rgb(71,132,166);
-background: linear-gradient(90deg, rgba(71,132,166,1) 0%, rgba(185,43,39,1) 100%, rgba(0,0,0,1) 100%);
+background: linear-gradient(90deg, rgba(71,132,166,1) 0%, rgba(184, 96, 93, 1) 100%, rgba(0,0,0,1) 100%);
 }
 
 
