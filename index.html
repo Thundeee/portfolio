@@ -1,12 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>    <link rel="stylesheet" href="./css/stylesheet.css" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Expletus+Sans"
+      rel="stylesheet"
+    />
+
+
+
+    <title>Portfolio - Asbjørn</title>
+  </head>
+  <body>
+    <div id="fullpage">
+      <div class="section s1">
+      <h1 id="background">Hello!</h1>
+      <h2>My Name is Asbjørn</h2>
+      <h2>I'm a Front-End Developer</h2>
+      <h3>Welcome To My Portfolio</h3>
+      <h4>(^̮^)</h4>
+     </div>
+      <div class="section s2">
+        <h1>About Me</h1>
+          <ul>
+            <li>21 Years old</li>
+            <li>Norwegian</li>
+            <li>Coded for 2+ Years</li>
+            <li>Studying Front-End Development</li>
+            <li>Enjoys playing games</li>
+            <li>Good at Googling</li>
+          </ul>
+          <div class="icons">
+          <img src="./multimedia/htmlmark.svg" alt="htmlLogo">
+          <img src="./multimedia/cssmark.svg" alt="cssLogo">
+          <img src="./multimedia/javascriptlogo.svg" alt="jsLogo">
+          <img src="./multimedia/Node.js_logo.svg" alt="nodeJsLogo">
+          <img src="./multimedia/Figma-logo.svg" alt="figmaLogo">
+          <img src="./multimedia/wordpress.svg" alt="wordpressLogo">
+</div>
+
+
+      </div>
+      <div class="section s3"><h1>Past Work</h1>
+      
+      
+      </div>
+
+
+
+
+      <div class="section s4"><h1>Get in Contact!</h1>
+        
+        <div id="social">
+          <i class="fa-brands fa-discord fa-lg"> Asbjorn#6086</i><br>
+
+          <i class="fa-solid fa-envelope fa-lg"> asbjornabel@gmail.com</i><br>
+
+          <i class="fa-solid fa-phone fa-lg"> 94822434</i>
+
+<div id="thx">   
+<h2>THANK YOU!</h2>
+<p>for visiting my site and viewing my work!</p>
+<h4>(^̮^)</h4>
+</div>  
+        </div>
+      
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./js/fullpage.js"></script>
+
+    <script>
+      new fullpage("#fullpage", {
+        //options here
+        autoScrolling: true,
+        navigation: true,
+        navigationTooltips: ["Home", "About Me", "Past Work", "Contact"],
+        showActiveTooltip: true,
+      });
+    </script>
+  </body>
 </html>
