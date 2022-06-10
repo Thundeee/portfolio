@@ -100,7 +100,7 @@ img {
 
 
 .s1  {
-background: linear-gradient(90deg, rgba(184, 96, 93, 1) 0%, rgb(24, 116, 221) 100%, rgba(0,0,0,1) 100%);
+background: linear-gradient(90deg, rgba(184, 96, 93, 1) 0%, rgb(68, 88, 156) 100%, rgba(0,0,0,1) 100%);
 }
 
 .s2 {
@@ -123,3 +123,4 @@ background: linear-gradient(90deg, rgba(71,132,166,1) 0%, rgba(184, 96, 93, 1) 1
 .hidden {
     display: none;
 }
+
