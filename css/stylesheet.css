@@ -16,7 +16,7 @@ h4 {
 }
 
 h4 {
-  font-family: /*"Times New Roman",*/ "SF Arabic", serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* SECTION 1*/
@@ -82,7 +82,9 @@ a:hover {
   text-decoration: underline;
 }
 
-
+a p:hover {
+    text-decoration: underline;
+}
 
 
 /* SECTION 4      */
