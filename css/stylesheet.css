@@ -47,7 +47,7 @@ li {
   margin-bottom: 10%;
 }
 
-img {
+.icons img {
   width: 100px;
   height: 100px;
 }
@@ -60,7 +60,33 @@ img {
   text-align: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
 }
+
+.projectWrapper div a p {
+    margin-top: 1px;
+}
+
+a img {
+    width: 150px;
+    height: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+a:hover {
+    position: relative;
+    bottom: 1px;
+}
+
+
+
+
 
 /* SECTION 4      */
 .s4 h1 {
