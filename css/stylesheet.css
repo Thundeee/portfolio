@@ -131,7 +131,7 @@ a p:hover {
 }
 
 .contentWrap p {
-    max-width: 60%;
+  max-width: 70%;
 }
 
 .contentWrap ul {
@@ -142,11 +142,21 @@ a p:hover {
   margin: 0;
 }
 
+#final {
+  text-align: center;
+}
+
+.contentWrap img {
+  margin: auto;
+  width: 70%;
+  height: auto;
+}
+
 .btn {
   text-align: center;
   padding: 12px;
   background-color: rgb(77, 37, 105);
-  margin: auto;
+  margin: 5% auto auto;
   justify-content: center;
 }
 

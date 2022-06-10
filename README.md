@@ -1,4 +1,4 @@
 # portfolio
 
 
-In this assignment i am using "fullpage.js". A framework used to make fullscreen scrolling websites.
+In this assignment I am using "fullpage.js". A Javascript framework used to make fullscreen scrolling websites.
