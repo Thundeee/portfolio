@@ -52,10 +52,7 @@ img {
 }
 
 /*SECTION 3 */
-.s3 h1 {
-  position: relative;
-  bottom: 20%;
-}
+
 
 .projectWrapper {
   display: flex;
